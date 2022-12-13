@@ -9,7 +9,7 @@ refs.passwordForm.addEventListener('submit', onCheck);
 
 function onCheck(evt) {
     evt.preventDefault();
-    password = Number(evt.currentTarget.elements.searchQuery.value.trim());
+    const password = Number(evt.currentTarget.elements.searchQuery.value.trim());
     const result = securityCheck(password);
     if (result === true) {
         Notiflix.Notify.success('You are right!');
