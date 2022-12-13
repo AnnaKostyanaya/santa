@@ -1,0 +1,61 @@
+.section {
+    max-width: 100%;
+    height: 100%;
+    background-image: url('../images/22692-alpy-sneg-zamorazhivanie-gornyj_hrebet-arktika-1920x1080.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.picture {
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    width: 20%;
+    height: 60%;
+    background-image: url('../images/PXL_20221213_144310957.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: contain;
+    z-index: 1;
+    box-shadow: -2px 1px 12px 20px rgba($color: #d3cbcb, $alpha: 0.8), -2px 1px 12px 20px rgba($color: #d3cbcb, $alpha: 0.8), -2px 1px 12px 20px rgba($color: #d3cbcb, $alpha: 0.8);
+    animation-name: Appearance;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+}
+
+@-webkit-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-o-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.present {
+    position: absolute;
+    top: 30%;
+    right: 38%;
+    width: 30%;
+    height: 23%;
+    background-image: url('../images/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: contain;
+    z-index: 1;
+    animation-name: Appearance;
+    animation-duration: 6s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+}

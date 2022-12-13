@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  background-image: url('../images/santa_klaus_oleni_sani_polet_podarki_rozhdestvo_68922_1400x1050.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.password-form {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  align-items: center;
+  font-size: x-small;
+}
