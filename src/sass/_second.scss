@@ -8,17 +8,18 @@
 }
 
 .picture {
+    display: inline;
     position: absolute;
-    top: 20%;
-    right: 40%;
-    width: 20%;
-    height: 60%;
+    top: 0%;
+    right: 0%;
+    transform: translate(-50%, 50%);
+    width: 50%;
+    height: 50%;
     background-image: url('../images/PXL_20221213_144310957.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: contain;
-    z-index: 1;
-    box-shadow: -2px 1px 12px 20px rgba($color: #d3cbcb, $alpha: 0.8), -2px 1px 12px 20px rgba($color: #d3cbcb, $alpha: 0.8), -2px 1px 12px 20px rgba($color: #d3cbcb, $alpha: 0.8);
+    background-position: center;
+    box-shadow: inset -2 1 12px 20px rgba(241, 238, 238, 0.8), -2 1 12px 20px rgba(241, 238, 238, 0.8), -2 1 12px 20px rgba(241, 238, 238, 0.8);
     animation-name: Appearance;
     animation-duration: 3s;
     animation-timing-function: cubic-bezier(.1,-.6,.2,0);
@@ -51,9 +52,9 @@
     width: 30%;
     height: 23%;
     background-image: url('../images/giphy.gif');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: contain;
+    background-position: center;
     z-index: 1;
     animation-name: Appearance;
     animation-duration: 6s;
@@ -120,3 +121,4 @@
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
+
